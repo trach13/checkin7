@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans);
+
+h1 {
+  text-align: center;
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 300%;
+}
+
+h2, h3, ul {
+  font-family: 'Droid Sans', sans-serif;
+}
+
+h3{
+  font-size: 150%;
+}
+
+img {
+  margin: 0 auto;
+}
+
+ul {
+ list-style: none;
+ text-align: left;
+ margin-left: 0;
+  padding-left: 0;
+}
+#text{
+  background-color: rgb(42, 25, 17);
+  color: white;
+}
+#bakery li{
+  display: inline-block;
+}
+#bakery ul{
+  text-align: center;
+}
+#bakery ul li:after{
+  content: " \00b7";
+}
+#bakery ul li:last-child:after{
+  content: none;
+}
+#bakery{
+  text-align: center;
+}
+
+
+#links li{
+  display: inline-block;
+}
+#links ul{
+  text-align: center;
+  font-size: 125%;
+}
+#links ul li:after{
+  content: " \00b7";
+}
+#links ul li:last-child:after{
+  content: none;
+}
+
+
+a:link, a:visited{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover, a:active{
+  text-decoration: underline;
+}
